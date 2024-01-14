@@ -11,6 +11,12 @@ document.write(this.rodzaj_drewna + ' ' + this.jaki_mebel+"<br>")
 }
 }
 mebel.mebel_wyswietl_jureczko();
+mebel.rokprodukcji=2024-19;
+mebel.mebel_pokaz_jureczko=function() {alert('Wiek: ' + this.rokprodukcji + 'rok')}
+mebel.mebel_pokaz_jureczko();
+mebel.cena=89;
+mebel.mebel_cena_jureczko=function(){document.write('kosztuje: ' + this.cena + 'zl')}
+mebel.mebel_cena_jureczko();
 </script>
 </head>
 <body>
